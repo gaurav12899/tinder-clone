@@ -17,12 +17,12 @@ fetchData();
 console.log("removing "+nameToDelete)
     }
     const outOfFrame=(name)=>{
-        console.log(name+" left the screen")
+        console.log(name+" left the screen.")
 
     }
     console.log(people)
     return (
-        <div className="tinderCards">
+        <div className="tinderCards">x`
         <div className="tinderCards__cardContainer">
          {   people.map((person)=>(
             //  <h1>{person.name}</h1>
